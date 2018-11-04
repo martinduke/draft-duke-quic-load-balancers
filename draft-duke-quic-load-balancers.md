@@ -357,9 +357,11 @@ per_server_bytes:
 
 ### Choosing Parameters
 
-For a 128-bit cipher (e.g., AES-ECB), it is recommended to set NUM_SERVER_ID_BYTES and NUM_ZERO_BYTES to 8. This would give 64-bit space to each server.
+For a 128-bit cipher (e.g., AES-ECB), it is recommended to set NUM_SERVER_ID_BYTES and NUM_ZERO_BYTES to 4.
+This gives 64-bit space to each server.
 
-For  a 64-bit cipher (e.g., SPARX-64), it is recommended to set NUM_SERVER_ID_BYTES to 2 and NUM_ZERO_BYTES to zero. This gives 48-bit space to client.
+For  a 64-bit cipher (e.g., SPARX-64), it is recommended to set NUM_SERVER_ID_BYTES to 2 and NUM_ZERO_BYTES to zero.
+This gives 48-bit space to client.
 
 # Protocol Description {#protocol-description}
 
