@@ -1,2 +1,2 @@
 # draft-duke-quic-load-balancers
-An internet draft to standardize the way that QUIC servers and load balancers can support routable, unlinkable connection IDs
+This individual draft has been replaced by the IETF-adopted one. Please refer to https://github.com/quicwg/load-balancers.
